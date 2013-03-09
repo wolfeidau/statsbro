@@ -1,0 +1,24 @@
+{
+    "name": "statsbro",
+    "version": "0.1.0",
+    "description": "Util module which logs a subset of system information and statistics.",
+    "main": "index.js",
+    "author": "Mark Wolfe <mark@wolfe.id.au>",
+    "scripts": {
+        "test": "make test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wolfeidau/statsbro.git"
+    },
+    "keywords": [
+        "statistics",
+        "system",
+        "logging"
+    ],
+    "dependencies": {
+    },
+    "devDependencies": {
+    },
+    "license": "MIT"
+}
