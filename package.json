@@ -1,6 +1,6 @@
 {
     "name": "statsbro",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Util module which logs a subset of system information and statistics.",
     "main": "lib/statsbro",
     "author": "Mark Wolfe <mark@wolfe.id.au>",

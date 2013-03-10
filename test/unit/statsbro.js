@@ -68,13 +68,15 @@ describe('statsbro', function () {
 
                 var callback = sinon.spy();
 
-                var logStatsContext = internals.statsbro.logStats(1000, callback);
+                var intervalId = internals.statsbro.enableLogStatsTimer(1000, callback);
 
-                logStatsContext();
+                expect(intervalId).to.exist;
 
                 clock.tick(1500);
 
                 expect(callback.calledOnce).is.true;
+
+                internals.statsbro.disableLogStatsTimer();
 
             }
         );
