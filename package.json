@@ -16,9 +16,18 @@
         "system",
         "logging"
     ],
-    "dependencies": {
-    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/wolfeidau/statsbro/blob/master/LICENSE-MIT"
+        }
+    ],
     "devDependencies": {
+        "mocha": "~1.8.1",
+        "chai": "~1.5.0",
+        "sinon": "~1.6.0"
     },
-    "license": "MIT"
+    "dependencies": {
+        "lodash": "~1.0.1"
+    }
 }
