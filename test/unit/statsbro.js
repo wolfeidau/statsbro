@@ -1,7 +1,7 @@
 // Load modules
 var Chai = require('chai');
 var sinon = require('sinon');
-var StatsBro = process.env.TEST_COV ? require('../../lib-cov/statsbro') : require('../../lib');
+var StatsBro = process.env.TEST_COV ? require('../../lib-cov/statsbro') : require('../../lib/statsbro');
 
 // Declare internals
 

@@ -1,8 +1,8 @@
 {
     "name": "statsbro",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Util module which logs a subset of system information and statistics.",
-    "main": "index.js",
+    "main": "lib/statsbro",
     "author": "Mark Wolfe <mark@wolfe.id.au>",
     "scripts": {
         "test": "make test"
